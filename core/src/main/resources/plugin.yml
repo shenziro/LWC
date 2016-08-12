@@ -135,6 +135,11 @@ permissions:
       description: Allows you to unlock password-protected protections.
   lwc.info:
       description: Allows you to view the owner and other misc data on a protection.
+  lwc.info.admin:
+      description: Allows you to view extended information about a protection.
+  lwc.info.admin.raw:
+      description: Allows you to view raw information about a protection. (Also needs lwc.admin)
+      
   lwc.remove:
       description: Allows you to remove protections you own.
 
